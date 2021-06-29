@@ -1,7 +1,7 @@
 # source_base_vue
 
 ## Project structure
-
+`<pre>`
 ├───config
 │       app-config.json // config for application
 ├───public
@@ -53,7 +53,7 @@
 │   package.json
 │   vue.config.js
 │   webpack.config.js
-
+</pre>
 ## Project install
 ```
 npm install
