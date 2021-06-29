@@ -1,0 +1,29 @@
+{
+  "appName": "base Vue project",
+  "api": {
+    "BaseUrl": {
+      "default": "https://raw.githubusercontent.com"
+    },
+    "headers": {
+      "default": {
+        "Content-Type": "application/json"
+      }
+    }
+  },
+  "axios": {
+    "baseUrl": {
+      "default": "/d"
+    }
+  },
+  "port": 8080,
+  "index": "./dist/index.html",
+  "sentry": {
+    "dsn": ""
+  },
+  "cookie": {
+
+  },
+  "headers": {
+    "Cache-Control": "no-store"
+  }
+}
