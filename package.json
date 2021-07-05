@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint --no-fix",
     "lintfix": "vue-cli-service lint",
     "lint:css": "stylelint '**/*.vue' '**/*.scss'",
-    "lint:cssfix": "stylelint '**/*.vue' '**/*.scss' --fix"
+    "lint:cssfix": "stylelint '**/*.vue' '**/*.scss' --fix",
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
