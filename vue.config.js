@@ -16,6 +16,5 @@ module.exports = {
     watchOptions: {
       clientLogLevel: 'warning'
     }
-  },
-  publicPath: process.env.NODE_ENV === 'production' ? '/my-project/' : '/'
+  }
 }
